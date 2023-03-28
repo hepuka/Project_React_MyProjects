@@ -16,7 +16,7 @@ export const projects_js = [
     image: portfolio,
     title: "My Portfolio",
     info: ` My personal portfolio.`,
-    tags: "onepage - simplejs - carousel - email",
+    tags: "onepage responsive simplejs carousel email",
     url: "https://kunfagyalzoltan.netlify.app/",
   },
   {
@@ -24,7 +24,7 @@ export const projects_js = [
     image: kvetes,
     title: "Budget",
     info: `Simple budget app`,
-    tags: " tag-eket ellenőrizni",
+    tags: "flexbox responsive moduljs localStorage IIFE",
     url: "https://ephemeral-hummingbird-4122a5.netlify.app/",
   },
 ];
@@ -35,7 +35,7 @@ export const projects_react = [
     image: eurtohuf,
     title: "EUR TO HUF",
     info: ` EUR TO HUF converter`,
-    tags: " tag-eket ellenőrizni",
+    tags: "flexbox useEffect fetchAPI",
     url: "https://eurtohuf.netlify.app/",
   },
   {
@@ -43,7 +43,7 @@ export const projects_react = [
     image: fchat,
     title: "Family Chat",
     info: ` This is our family chat`,
-    tags: " tag-eket ellenőrizni",
+    tags: "Sass flexbox responsive firebase routes useEffect useContext useRef useNavigate searchbar login mixin",
     url: "https://familytalks.netlify.app/",
   },
   {
@@ -51,7 +51,7 @@ export const projects_react = [
     image: hepukashop,
     title: "Hepuka Shop",
     info: ` This is our shopping place`,
-    tags: " tag-eket ellenőrizni",
+    tags: "moduleSass server stripe firebase redux react-toastify react-icons pagination searchbox useFetch routes login register reset",
     url: "https://familyshop.onrender.com/",
   },
   {

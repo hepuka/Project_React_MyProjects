@@ -9,12 +9,12 @@ const Project = ({ image, tags, title, info, url }) => {
           <h4>{title}</h4>
         </div>
         <p>{info}</p>
-        <div className="tour-footer">
-          <p>{tags}</p>
-          <a href={url} target="_blank" rel="noreferrer" className="btn">
-            view
-          </a>
-        </div>
+        <p>{tags}</p>
+      </div>
+      <div className="tour-footer">
+        <a href={url} target="_blank" rel="noreferrer" className="btn">
+          view
+        </a>
       </div>
     </article>
   );

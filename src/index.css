@@ -168,6 +168,10 @@ p {
   background: var(--clr-grey-10);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .tour-card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -175,6 +179,7 @@ p {
 }
 .tour-img-container {
   height: 200px;
+  width: 100%;
 }
 .tour-img {
   height: 100%;
@@ -222,7 +227,7 @@ p {
 }
 
 .tour-footer a {
-  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .tour-footer p span {
   margin-right: 0.25rem;
