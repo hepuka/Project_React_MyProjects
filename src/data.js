@@ -1,4 +1,3 @@
-import main from "./images/main.jpeg";
 import eurtohuf from "./images/eurtohuf.jpg";
 import portfolio from "./images/portfolio.jpg";
 import fchat from "./images/fchat.jpg";
