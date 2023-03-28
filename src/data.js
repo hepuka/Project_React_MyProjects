@@ -2,6 +2,8 @@ import main from "./images/main.jpeg";
 import eurtohuf from "./images/eurtohuf.jpg";
 import portfolio from "./images/portfolio.jpg";
 import fchat from "./images/fchat.jpg";
+import hepukashop from "./images/hepukashop.jpg";
+import szakdolgozat from "./images/szakdolgozat.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#js", text: "JS" },
@@ -36,11 +38,27 @@ export const projects_react = [
     url: "https://eurtohuf.netlify.app/",
   },
   {
-    id: 1,
+    id: 2,
     image: fchat,
     title: "Family Chat",
     info: ` This is our family chat`,
     tags: " tag-eket ellenőrizni",
     url: "https://familytalks.netlify.app/",
+  },
+  {
+    id: 3,
+    image: hepukashop,
+    title: "Hepuka Shop",
+    info: ` This is our shoppong place`,
+    tags: " tag-eket ellenőrizni",
+    url: "https://familyshop.onrender.com/",
+  },
+  {
+    id: 4,
+    image: szakdolgozat,
+    title: "Szakdolgozat",
+    info: ` Egyetemi szakdolgozat`,
+    tags: " tag-eket ellenőrizni",
+    url: "https://hepukashopb.onrender.com/",
   },
 ];
