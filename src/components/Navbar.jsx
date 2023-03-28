@@ -9,7 +9,9 @@ const Navbar = () => {
           <h3 className="nav-logo">My Projects</h3>
         </div>
         <PageLinks parentClass="nav-links" itemClass="nav-link" />
-        <div className="nav-icons">kereső komponens ide</div>
+        <div className="nav-icons">
+          KUN-FAGYAL Zoltán - Computer Science Engineering
+        </div>
       </div>
     </nav>
   );
