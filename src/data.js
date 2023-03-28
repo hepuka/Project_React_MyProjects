@@ -16,7 +16,7 @@ export const projects_js = [
     image: portfolio,
     title: "My Portfolio",
     info: ` My personal portfolio.`,
-    tags: " tag-eket ellenőrizni",
+    tags: "onepage - simplejs - carousel - email",
     url: "https://kunfagyalzoltan.netlify.app/",
   },
   {
