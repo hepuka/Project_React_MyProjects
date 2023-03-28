@@ -4,6 +4,7 @@ import portfolio from "./images/portfolio.jpg";
 import fchat from "./images/fchat.jpg";
 import hepukashop from "./images/hepukashop.jpg";
 import szakdolgozat from "./images/szakdolgozat.jpg";
+import kvetes from "./images/kvetes.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#js", text: "JS" },
@@ -21,10 +22,11 @@ export const projects_js = [
   },
   {
     id: 2,
-    image: main,
-    title: "Tibet Adventure",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    image: kvetes,
+    title: "Költségvetés",
+    info: ` Egyszerű költségvetés app`,
     tags: " tag-eket ellenőrizni",
+    url: "https://ephemeral-hummingbird-4122a5.netlify.app/",
   },
 ];
 
