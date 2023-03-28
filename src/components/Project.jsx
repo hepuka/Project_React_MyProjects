@@ -11,7 +11,7 @@ const Project = ({ image, tags, title, info, url }) => {
         <p>{info}</p>
         <div className="tour-footer">
           <p>{tags}</p>
-          <a href={url} target="_blank" className="btn">
+          <a href={url} target="_blank" rel="noreferrer" className="btn">
             View
           </a>
         </div>
