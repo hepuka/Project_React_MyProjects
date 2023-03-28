@@ -140,6 +140,7 @@ p {
 .section {
   padding: 5rem 0;
   scroll-margin-top: 4rem;
+  background-color: var(--clr-primary-9);
 }
 .section-title {
   text-align: center;
