@@ -5,6 +5,6 @@ const PageLink = ({ link, itemClass }) => {
         {link.text}
       </a>
     </li>
-  )
-}
-export default PageLink
+  );
+};
+export default PageLink;
