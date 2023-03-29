@@ -4,6 +4,7 @@ import fchat from "./images/fchat.jpg";
 import hepukashop from "./images/hepukashop.jpg";
 import szakdolgozat from "./images/szakdolgozat.jpg";
 import kvetes from "./images/kvetes.jpg";
+import sassjs from "./images/sassjs.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#js", text: "JS" },
@@ -26,6 +27,14 @@ export const projects_js = [
     info: `Simple budget app`,
     tags: "flexbox responsive moduljs localStorage IIFE",
     url: "https://ephemeral-hummingbird-4122a5.netlify.app/",
+  },
+  {
+    id: 3,
+    image: sassjs,
+    title: "Portolio with SASS",
+    info: `Simple portfilio template with SASS app`,
+    tags: "Sass flexbox responsive",
+    url: "https://sassjsproject.netlify.app/",
   },
 ];
 
@@ -51,7 +60,7 @@ export const projects_react = [
     image: hepukashop,
     title: "Hepuka Shop",
     info: ` This is our shopping place`,
-    tags: "moduleSass server stripe firebase redux react-toastify react-icons pagination searchbox customhooks(useFetch) routes login register reset",
+    tags: "moduleSass responsive server stripe firebase redux react-toastify react-icons pagination searchbox customhooks(useFetch) routes login register reset",
     url: "https://familyshop.onrender.com/",
   },
   {
@@ -59,7 +68,7 @@ export const projects_react = [
     image: szakdolgozat,
     title: "Thesis",
     info: ` University of Debrecen thesis`,
-    tags: "moduleSass  server redux firebase routes react-toastify customhooks(useFetch) protectedroutes login register searchbox pagination",
+    tags: "moduleSass rfesponsive server redux firebase routes react-toastify customhooks(useFetch) protectedroutes login register searchbox pagination",
     url: "https://hepukashopb.onrender.com/",
   },
 ];
