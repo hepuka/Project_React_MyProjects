@@ -5,6 +5,8 @@ import hepukashop from "./images/hepukashop.jpg";
 import szakdolgozat from "./images/szakdolgozat.jpg";
 import kvetes from "./images/kvetes.jpg";
 import sassjs from "./images/sassjs.jpg";
+import anlog from "./images/anlog.jpg";
+import broads from "./images/broads.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#js", text: "JS" },
@@ -32,7 +34,7 @@ export const projects_js = [
     id: 3,
     image: sassjs,
     title: "Portolio with SASS",
-    info: `Simple portfilio template with SASS app`,
+    info: `Simple portfolio template with SASS`,
     tags: "Sass flexbox responsive",
     url: "https://sassjsproject.netlify.app/",
   },
@@ -70,5 +72,21 @@ export const projects_react = [
     info: ` University of Debrecen thesis`,
     tags: "moduleSass rfesponsive server redux firebase routes react-toastify customhooks(useFetch) protectedroutes login register searchbox pagination",
     url: "https://hepukashopb.onrender.com/",
+  },
+  {
+    id: 5,
+    image: anlog,
+    title: "Animated login",
+    info: ` Animated login, register, reset sites`,
+    tags: "Sass flexbox responsive react-icons login register reset",
+    url: "https://animatedloginregister.netlify.app/",
+  },
+  {
+    id: 6,
+    image: broads,
+    title: "BACKROADS APP",
+    info: ` Simple onepage site`,
+    tags: "onepage flexbox responsive all_link_in_datafile datafilemap",
+    url: "https://backroadsappcopy.netlify.app/",
   },
 ];
