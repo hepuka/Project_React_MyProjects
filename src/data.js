@@ -51,7 +51,7 @@ export const projects_react = [
     image: hepukashop,
     title: "Hepuka Shop",
     info: ` This is our shopping place`,
-    tags: "moduleSass server stripe firebase redux react-toastify react-icons pagination searchbox useFetch routes login register reset",
+    tags: "moduleSass server stripe firebase redux react-toastify react-icons pagination searchbox customhooks(useFetch) routes login register reset",
     url: "https://familyshop.onrender.com/",
   },
   {
@@ -59,7 +59,7 @@ export const projects_react = [
     image: szakdolgozat,
     title: "Thesis",
     info: ` University of Debrecen thesis`,
-    tags: " tag-eket ellenőrizni",
+    tags: "moduleSass  server redux firebase routes react-toastify customhooks(useFetch) protectedroutes login register searchbox pagination",
     url: "https://hepukashopb.onrender.com/",
   },
 ];
