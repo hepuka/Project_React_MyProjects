@@ -31,6 +31,41 @@ export const pageLinks = [
   { id: 3, href: "#ts", text: "Typescript" },
 ];
 
+export const headers = [
+  "",
+  "Company",
+  "Contact",
+  "Country",
+  "Country",
+  "Country",
+];
+export const rows = [
+  {
+    id: 1,
+    data1: "x",
+    data2: "",
+    data3: "x",
+    data4: "",
+    data5: "x",
+  },
+  {
+    id: 2,
+    data1: "",
+    data2: "x",
+    data3: "x",
+    data4: "",
+    data5: "x",
+  },
+  {
+    id: 3,
+    data1: "x",
+    data2: "x",
+    data3: "x",
+    data4: "",
+    data5: "",
+  },
+];
+
 export const projects_js = [
   {
     id: 1,
