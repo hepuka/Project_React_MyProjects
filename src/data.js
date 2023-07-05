@@ -1,11 +1,7 @@
 import eurtohuf from "./images/eurtohuf.jpg";
 import portfolio from "./images/portfolio.jpg";
-import fchat from "./images/fchat.jpg";
 import hepukashop from "./images/hepukashop.jpg";
-import szakdolgozat from "./images/szakdolgozat.jpg";
 import kvetes from "./images/kvetes.jpg";
-import sassjs from "./images/sassjs.jpg";
-import anlog from "./images/anlog.jpg";
 import broads from "./images/broads.jpg";
 import dark from "./images/dark.jpg";
 import real from "./images/real.jpg";
@@ -14,21 +10,14 @@ import profiles from "./images/profiles.jpg";
 import joke from "./images/joke.jpg";
 import community from "./images/community.jpg";
 import terminator from "./images/terminator.jpg";
-import todo from "./images/todo.jpg";
-import todo2 from "./images/todo2.jpg";
 import debhir from "./images/debhir.jpg";
-import movie from "./images/movie.jpg";
 import todo3 from "./images/todo3.jpg";
-import beer from "./images/beer.jpg";
-import yummy from "./images/yummy.jpg";
 import covid from "./images/covid.jpg";
-import recept from "./images/recept.jpg";
 import hir from "./images/hir.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#js", text: "JS" },
   { id: 2, href: "#react", text: "React" },
-  { id: 3, href: "#ts", text: "Typescript" },
 ];
 
 export const headers = [
@@ -84,14 +73,6 @@ export const projects_js = [
     url: "https://ephemeral-hummingbird-4122a5.netlify.app/",
   },
   {
-    id: 3,
-    image: sassjs,
-    title: "Portolio with SASS",
-    info: `Simple portfolio template with SASS`,
-    tags: "Sass flexbox responsive",
-    url: "https://sassjsproject.netlify.app/",
-  },
-  {
     id: 4,
     image: debhir,
     title: "Debreceni Hirmondó",
@@ -107,14 +88,7 @@ export const projects_js = [
     tags: "grid",
     url: "https://newsportalwithgrid.netlify.app/",
   },
-  {
-    id: 6,
-    image: movie,
-    title: "Mozi",
-    info: `Mozijegyfoglaló app`,
-    tags: "flexbox datafilemap localStorage",
-    url: "https://moziapp.netlify.app/",
-  },
+
   {
     id: 7,
     image: todo3,
@@ -123,22 +97,7 @@ export const projects_js = [
     tags: "flexbox createElement appendChild removeChild",
     url: "https://simpletodoapp22.netlify.app/",
   },
-  {
-    id: 8,
-    image: beer,
-    title: "BeerShop",
-    info: `Beer Webshop`,
-    tags: "flexbox",
-    url: "https://beershop2.netlify.app/",
-  },
-  {
-    id: 9,
-    image: yummy,
-    title: "Yummy",
-    info: `Yummy food with bootstrap`,
-    tags: "bootstrap php",
-    url: "https://yummyfoodcopy.netlify.app/",
-  },
+
   {
     id: 10,
     image: covid,
@@ -146,14 +105,6 @@ export const projects_js = [
     info: `Customers counter`,
     tags: "flexbox counter",
     url: "https://vasarloszamlalo.netlify.app/",
-  },
-  {
-    id: 11,
-    image: recept,
-    title: "Recept",
-    info: `Recept template`,
-    tags: "flexbox datafilemap pagination",
-    url: "https://receptsite.netlify.app/",
   },
 ];
 
@@ -167,14 +118,6 @@ export const projects_react = [
     url: "https://eurtohuf.netlify.app/",
   },
   {
-    id: 2,
-    image: fchat,
-    title: "Family Chat",
-    info: ` This is our family chat`,
-    tags: "Sass flexbox responsive firebase routes useEffect contextAPI useRef useNavigate searchbar login mixin",
-    url: "https://familytalks.netlify.app/",
-  },
-  {
     id: 3,
     image: hepukashop,
     title: "Hepuka Shop",
@@ -182,22 +125,7 @@ export const projects_react = [
     tags: "moduleSass responsive server stripe firebase redux react-toastify react-icons pagination searchbox customhooks(useFetch) routes login register reset",
     url: "https://familyshop.onrender.com/",
   },
-  {
-    id: 4,
-    image: szakdolgozat,
-    title: "Thesis",
-    info: ` University of Debrecen thesis`,
-    tags: "moduleSass rfesponsive server redux firebase routes react-toastify customhooks(useFetch) protectedroutes login register searchbox pagination",
-    url: "https://hepukashopb.onrender.com/",
-  },
-  {
-    id: 5,
-    image: anlog,
-    title: "Animated login",
-    info: ` Animated login, register, reset sites`,
-    tags: "Sass flexbox responsive react-icons login register reset",
-    url: "https://animatedloginregister.netlify.app/",
-  },
+
   {
     id: 6,
     image: broads,
@@ -264,7 +192,7 @@ export const projects_react = [
   },
   {
     id: 14,
-    image: todo,
+    image: todo3,
     title: "TODO",
     info: `Simple TODO app`,
     tags: "flexbox firebase async-await",
@@ -283,7 +211,7 @@ export const projects_react = [
 export const projects_ts = [
   {
     id: 1,
-    image: todo2,
+    image: todo3,
     title: "TODO",
     info: `Simple TODO app with Typescript`,
     tags: "typescript flexbox localStorage CRUD vite",
