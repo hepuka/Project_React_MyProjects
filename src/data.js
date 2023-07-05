@@ -270,6 +270,14 @@ export const projects_react = [
     tags: "flexbox firebase async-await",
     url: "https://firebasetodoapp3.netlify.app/",
   },
+  {
+    id: 15,
+    image: kvetes,
+    title: "Budget",
+    info: `Budget app in React`,
+    tags: "uselocalState useState",
+    url: "https://koltsegvetes.netlify.app/",
+  },
 ];
 
 export const projects_ts = [
