@@ -3,7 +3,6 @@ import portfolio from "./images/portfolio.jpg";
 import hepukashop from "./images/hepukashop.jpg";
 import kvetes from "./images/kvetes.jpg";
 import broads from "./images/broads.jpg";
-import dark from "./images/dark.jpg";
 import real from "./images/real.jpg";
 import pfilter from "./images/pfilter.jpg";
 import profiles from "./images/profiles.jpg";
@@ -14,6 +13,7 @@ import debhir from "./images/debhir.jpg";
 import todo3 from "./images/todo3.jpg";
 import covid from "./images/covid.jpg";
 import hir from "./images/hir.jpg";
+import netflix from "./images/netflix.jpg";
 
 export const pageLinks = [
   { id: 1, href: "#js", text: "JS" },
@@ -65,14 +65,6 @@ export const projects_js = [
     url: "https://kunfagyalzoltan.netlify.app/",
   },
   {
-    id: 2,
-    image: kvetes,
-    title: "Budget",
-    info: `Simple budget app`,
-    tags: "flexbox responsive moduljs localStorage IIFE",
-    url: "https://ephemeral-hummingbird-4122a5.netlify.app/",
-  },
-  {
     id: 4,
     image: debhir,
     title: "Debreceni Hirmondó",
@@ -118,12 +110,28 @@ export const projects_react = [
     url: "https://eurtohuf.netlify.app/",
   },
   {
+    id: 2,
+    image: netflix,
+    title: "HepukaFlix",
+    info: `Netflix movies`,
+    tags: "flexbox useEffect fetchAPI",
+    url: "https://hepukamovie.netlify.app/",
+  },
+  {
     id: 3,
     image: hepukashop,
     title: "Hepuka Shop",
     info: ` This is our shopping place`,
     tags: "moduleSass responsive server stripe firebase redux react-toastify react-icons pagination searchbox customhooks(useFetch) routes login register reset",
     url: "https://familyshop.onrender.com/",
+  },
+  {
+    id: 4,
+    image: kvetes,
+    title: "Budget",
+    info: `Simple budget app`,
+    tags: "flexbox responsive moduljs localStorage IIFE",
+    url: "https://koltsegvetes.netlify.app/",
   },
 
   {
@@ -133,22 +141,6 @@ export const projects_react = [
     info: ` Simple onepage site`,
     tags: "onepage flexbox responsive all_link_in_datafile datafilemap",
     url: "https://backroadsappcopy.netlify.app/",
-  },
-  {
-    id: 7,
-    image: dark,
-    title: "Darkmode Toggle App",
-    info: `Simple dark-light mode toggle app`,
-    tags: "flexbox responsive useLocalStorage contextAPI react-icons",
-    url: "https://darklighttoggleapp.netlify.app/",
-  },
-  {
-    id: 8,
-    image: real,
-    title: "RealEstate",
-    info: `realEstate app with Grip`,
-    tags: "Sass grid responsive react-icons",
-    url: "https://realestategridapp.netlify.app/",
   },
   {
     id: 9,
@@ -174,14 +166,7 @@ export const projects_react = [
     tags: "flexbox fetchAPI useEffect spinner",
     url: "https://randomjokegeneratorapp.netlify.app/",
   },
-  {
-    id: 12,
-    image: community,
-    title: "Community ",
-    info: `Simple community app with styled components`,
-    tags: "styled-component flexbox datafilemap",
-    url: "https://styledcomponentapp.netlify.app/",
-  },
+
   {
     id: 13,
     image: terminator,
