@@ -175,4 +175,31 @@ export const projects_react = [
     tags: "searchbox filtermethods fetchAPI",
     url: "https://terminatorapp.netlify.app/",
   },
+  {
+    id: 14,
+    image: todo3,
+    title: "TODO",
+    info: `Simple TODO app`,
+    tags: "flexbox firebase async-await",
+    url: "https://firebasetodoapp3.netlify.app/",
+  },
+  {
+    id: 15,
+    image: kvetes,
+    title: "Budget",
+    info: `Budget app in React`,
+    tags: "uselocalState useState",
+    url: "https://koltsegvetes.netlify.app/",
+  },
+];
+
+export const projects_ts = [
+  {
+    id: 1,
+    image: todo3,
+    title: "TODO",
+    info: `Simple TODO app with Typescript`,
+    tags: "typescript flexbox localStorage CRUD vite",
+    url: "https://todoappwithts.netlify.app/",
+  },
 ];
