@@ -1,6 +1,5 @@
 import eurtohuf from "./images/eurtohuf.jpg";
 import portfolio from "./images/portfolio.jpg";
-import hepukashop from "./images/hepukashop.jpg";
 import kvetes from "./images/kvetes.jpg";
 import broads from "./images/broads.jpg";
 import pfilter from "./images/pfilter.jpg";
@@ -80,15 +79,6 @@ export const projects_js = [
   },
 
   {
-    id: 7,
-    image: todo3,
-    title: "TODO",
-    info: `Simple TODO app`,
-    tags: "flexbox createElement appendChild removeChild",
-    url: "https://simpletodoapp22.netlify.app/",
-  },
-
-  {
     id: 10,
     image: covid,
     title: "COVID",
@@ -114,22 +104,6 @@ export const projects_react = [
     info: `Netflix movies`,
     tags: "flexbox useEffect fetchAPI",
     url: "https://hepukamovie.netlify.app/",
-  },
-  {
-    id: 3,
-    image: hepukashop,
-    title: "Hepuka Shop",
-    info: ` This is our shopping place`,
-    tags: "moduleSass responsive server stripe firebase redux react-toastify react-icons pagination searchbox customhooks(useFetch) routes login register reset",
-    url: "https://familyshop.onrender.com/",
-  },
-  {
-    id: 4,
-    image: kvetes,
-    title: "Budget",
-    info: `Simple budget app`,
-    tags: "flexbox responsive moduljs localStorage IIFE",
-    url: "https://koltsegvetes.netlify.app/",
   },
 
   {
@@ -188,16 +162,5 @@ export const projects_react = [
     info: `Budget app in React`,
     tags: "uselocalState useState",
     url: "https://koltsegvetes.netlify.app/",
-  },
-];
-
-export const projects_ts = [
-  {
-    id: 1,
-    image: todo3,
-    title: "TODO",
-    info: `Simple TODO app with Typescript`,
-    tags: "typescript flexbox localStorage CRUD vite",
-    url: "https://todoappwithts.netlify.app/",
   },
 ];
